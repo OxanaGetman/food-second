@@ -1,38 +1,100 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/cute-food-pattern-design-on-yellow-background_8830-484.jpg?w=740&t=st=1675775669~exp=1675776269~hmac=18635bf8fa39f56eabeb11baa1484e545d8e9f4dcb27c983a0bd499b72d1e212);
+  background-size:inherit;
+}
+
+.search {
+  width: 100%;
+  padding: 15px 28px;
+  background-color: transparent;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1B2430;
+  background-color: #57575656;
+  margin-left: 0px;
+  box-shadow: inset 0px 0px 0px 4px #B5F1CC;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(199, 175, 51, 0.605);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+li {
+  display: block;
+  padding: .4em .4em .4em .8em;
+  margin: .5em 0 .5em 2.5em;
+  background: #e5fdd195;
+  font-size: 17px;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+  color: #2D033B;
+  font-size: 60px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-shadow: 0 3px 0 rgba(255,255,255,.5);
+}
+
+h2 {
+  color: #2D033B;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-shadow: 0 2px 0 rgba(255,255,255,.5);
+}
+
+p {
+  color: #2D033B;
+  font-size: 25px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.dish {
+  text-shadow: 0 0 30px #B5F1CC,0 0 40px #B5F1CC,0 0 30px #B5F1CC,0 0 40px #B5F1CC;
+}
+
+.calories {
+  text-shadow: 0 0 30px #FCC2FC,0 0 40px #FCC2FC,0 0 30px #FCC2FC,0 0 40px #FCC2FC;
+}
+
+.cuisine {
+  text-shadow: 0 0 30px #93C6E7,0 0 40px #93C6E7,0 0 30px #93C6E7,0 0 40px #93C6E7;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  border-radius: 30px;
+  background-color: #b5f1ccae;
+  border: 1px solid #2D033B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #fcc2fccb;
 }
