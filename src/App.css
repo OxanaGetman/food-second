@@ -1,6 +1,6 @@
 body {
   background-image: url(https://img.freepik.com/free-vector/cute-food-pattern-design-on-yellow-background_8830-484.jpg?w=740&t=st=1675775669~exp=1675776269~hmac=18635bf8fa39f56eabeb11baa1484e545d8e9f4dcb27c983a0bd499b72d1e212);
-  background-size:inherit;
+  background-size: inherit;
 }
 
 .search {
@@ -25,7 +25,7 @@ body {
 ul {
   list-style: none;
   padding: 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  text-shadow: 0 3px 0 rgba(255,255,255,.5);
 }
 
 li {
